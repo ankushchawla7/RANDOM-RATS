@@ -80,6 +80,12 @@
         --fs-15:13px;
         --fs-37:24px;
     }
+    .pt-53{
+        padding-top: 25px !important;
+    }
+    .pt-60{
+        padding-top: 20px !important;
+    }
 }
 @media (max-width:992px) {
     :root{
