@@ -58,15 +58,7 @@ font-family: 'Press Start 2P', cursive;
     border-radius: 69.041px;
     border: none;
 }
-.line-text::after{
-content: "";
-    width: 68%;
-    height: 1px;
-    background-color: var(--red);
-    position: absolute;
-    left: 16%;
-    top: 78%;
-}
+
 @media (max-width:768px) {
     .scroll{
         overflow-x: scroll;
@@ -87,6 +79,15 @@ width: 100%;
     .px-lg-150{
         padding: 0 150px !important;
     }
+        .line-text::after {
+            content: "";
+            width: 68%;
+            height: 1px;
+            background-color: var(--red);
+            position: absolute;
+            left: 16%;
+            top: 78%;
+        }
 }
 /* @media (min-width:768px) and(max-width:992px) {
     .content-md-center{
