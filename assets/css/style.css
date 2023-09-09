@@ -44,6 +44,9 @@ svg {
 .gap-10{
     gap: 10px;
 }
+.logo{
+    cursor: pointer;
+}
 /* 
 .gap-21 {
     gap: 21px;
