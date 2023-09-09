@@ -74,7 +74,7 @@
 
 @media (max-width:576px) {
     :root {
-        --fs-85: 30px;
+        --fs-85: 30px !important;
         --fs-28: 20px;
         --fs-20: 18px;
         --fs-15:13px;
@@ -89,6 +89,6 @@
 }
 @media (max-width:992px) {
     :root{
-            --fs-85: 50px;
+            --fs-85: 40px;
     }
 }
